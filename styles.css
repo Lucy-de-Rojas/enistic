@@ -105,8 +105,12 @@ a {
 }
 
 a:hover {
-    font-size: 400%;
+    font-size: 250%;
 }
+
+
+
+
 
 
 
@@ -126,6 +130,7 @@ a:hover {
     padding: 20px;
     border-radius: 7px;
 }
+
 
 .description {
     width: 60%;
