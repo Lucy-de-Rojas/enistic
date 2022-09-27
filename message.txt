@@ -1,0 +1,26 @@
+
+hello Eddy,
+
+please see draft of the site. The links are below.
+Really enjoyed working on this mini project.
+Hope to make it through to the next round.
+
+I created web and mysql server on my home pc and is hosted from our network;
+however the link to the site may change as BT frequently change our public IP address.
+I'll keep my eye on this, hoping BT keeps our IP the same for the next few days.
+
+Also I created Github repo for you to see the code. The link is below as well. 
+
+
+thank you again
+and hope to hear from you
+Lucy
+
+LINKS:
+
+Site:
+http://86.180.253.232/enistic/
+
+Code repo:
+https://github.com/Lucy-de-Rojas/enistic
+

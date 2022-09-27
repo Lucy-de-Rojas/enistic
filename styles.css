@@ -96,6 +96,18 @@ h2 {
 }
 
 
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 200%;
+    transition: font-size 2s;
+}
+
+a:hover {
+    font-size: 400%;
+}
+
 
 
 .wrapperResults {
