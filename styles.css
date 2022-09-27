@@ -1,0 +1,146 @@
+:root {
+    --blue: #00304b;
+    --blue-light: #4eabdf;
+}
+
+
+
+
+
+body {
+    background-color: var(--blue);
+    color: var(--blue-light);
+    text-align: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    font-family: grotley;
+
+
+}
+
+
+@media only screen and (min-width: 1000px )  {
+    body {
+        /* background-color: yellow; */
+        padding: 0 20%;
+
+
+
+    }
+    
+}
+
+
+
+h1 {
+    text-shadow: 
+     0 0 3px #FF0000, 0 0 5px red;     
+    font-family: grotley;
+    font-size: 500%;
+    color: var(--blue-light);
+    padding: 0;
+    margin: 0;
+    stroke: 3;
+    animation: color 3.5s alternate ease-in-out infinite;
+}
+
+@keyframes color {
+
+    from {color: var(--blue);}
+    to {color: var(--blue-light);}
+
+    
+}
+
+
+@media only screen and (min-width: 1000px ) {
+
+    h1 {
+        font-size: 800%;
+    }
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+h2 {
+    padding: 0;
+    margin: -10px 0 10px 0;
+    font-size: 130%;
+    color: yellow;
+
+     font-family: celestine ;
+}
+
+
+@media only screen and (min-width: 1000px ) {
+
+h2 {
+    font-size: 200%;
+}
+
+
+}
+
+
+
+
+.wrapperResults {
+    /* background-color: rgb(161, 138, 95); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.para {
+    margin: 10px 20px;
+    background-color: rgb(132, 247, 119);
+    color: var(--blue);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.description {
+    width: 60%;
+}
+
+.price {
+    width: 20%;
+    background-color: rgb(249, 76, 76);
+    color: white;
+
+
+    }
+
+
+
+.priceCol {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+.header {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
